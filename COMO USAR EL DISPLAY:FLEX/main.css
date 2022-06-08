@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 150px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.grande {
+    width: 100%;
+    width: 600px;
+    height: 600px;
+    outline: 3px solid;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.grande .child1{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.grande .child2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.grande .child3{
+    
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+
+}
+
+.grande .child4{
+    
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+
+}
+
+.grande .child5{
+    
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+}

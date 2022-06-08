@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 150px;
+    display:flex;
+    justify-content: center;
+}
+
+.grande div{
+    float: left;
+}
+
+.grande {
+    width: 100%;
+    width: 600px;
+    height: 600px;
+    outline: 3px solid;
+    
+}
+
+.grande .child1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    
+}
+
+.grande .child2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    
+}
+
+.grande .child3{
+    
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+
+}
+
+.grande .child4{
+    
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+
+}
+
+.grande .child5{
+    
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+}
